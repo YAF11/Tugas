@@ -8,7 +8,7 @@ for (let y = 1; y <=9; y++){
             document.write("*")
         }
         else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -21,7 +21,7 @@ for (let y = 1; y <=9; y++){
         if (x==1 || y==1 || x==9 || y==5) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -33,7 +33,7 @@ for (let y = 1; y <=9; y++){
         if (x==1 || y==1 || y==5) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
@@ -46,7 +46,7 @@ for (let y = 1; y <=9; y++){
         if (x==5 || y==1 || y==9) {
             document.write("*")
         } else {
-            document.write("~") 
+            document.write("&ensp;") 
         }
     }
     document.write("<br>");
